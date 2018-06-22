@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.ecom.amazon.login.HomepageTest">
+        <methods>
+          <include name="preset"/>
+          <include name="posttest"/>
+        </methods>
+      </class> <!-- com.ecom.amazon.login.HomepageTest -->
+      <class name="com.ecom.amazon.login.LoginTest">
+        <methods>
+          <include name="preset"/>
+          <include name="testlogin" invocation-numbers="0"/>
+          <include name="posttest"/>
+        </methods>
+      </class> <!-- com.ecom.amazon.login.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

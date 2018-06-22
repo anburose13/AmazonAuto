@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ecom.amazon.login.LoginTest">
+        <methods>
+          <include name="preset"/>
+          <include name="testlogin" invocation-numbers="0"/>
+          <include name="posttest"/>
+        </methods>
+      </class> <!-- com.ecom.amazon.login.LoginTest -->
+      <class name="com.ecom.amazon.login.HomepageTest">
+        <methods>
+          <include name="preset"/>
+          <include name="posttest"/>
+        </methods>
+      </class> <!-- com.ecom.amazon.login.HomepageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
