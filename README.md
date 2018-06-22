@@ -1,0 +1,2 @@
+# AmazonAuto
+Automated project trail
